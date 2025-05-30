@@ -52,7 +52,7 @@ bash train_white.sh
 bash train.sh
 ```
 
-Ensure your player file is named `my_player.py` or similar according to the expected script format.
+Ensure your player file is named `my_player3.py` or similar according to the expected script format.
 
 ## 🛠️ AI Techniques Used
 
