@@ -62,8 +62,8 @@ Ensure your player file is named `my_player3.py` or similar according to the exp
 * **Custom Reward Function:** Evaluates Go states using liberty, territory, Ko threats, and positional control
 
 ## Best Player
-The best player among these turned out to be the minimax player, taking move time, decision making and win rate into consideration.
-Win rate as Black: 90%
+The best player among these turned out to be the minimax player, taking move time, decision making and win rate into consideration.  
+Win rate as Black: 90%  
 Win rate as White: 100% 
 
 ## 🧪 Training Tips for Q-Learning Player
