@@ -1,10 +1,3 @@
-#!/usr/bin/env python
-# -*- coding:utf-8 -*-
-# ProjectName: HW2
-# FileName: write
-# Description:
-# TodoList:
-
 def writeOutput(result, path="output.txt"):
     res = ""
     if result == "PASS":

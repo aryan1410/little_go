@@ -1,10 +1,3 @@
-#!/usr/bin/env python
-# -*- coding:utf-8 -*-
-# ProjectName: HW2
-# FileName: read
-# Description:
-# TodoList:
-
 def readInput(n, path="input.txt"):
 
     with open(path, 'r') as f:
