@@ -66,6 +66,6 @@ The best player among these turned out to be the minimax player, taking move tim
 Win rate as Black: 90%  
 Win rate as White: 100% 
 
-## 🧪 Training Tips for Q-Learning Player
-Long-term training of the Q-learning agent, with initial and majority exploration, results in significantly improved performance due to experience accumulation.
+## 🧪 Training Tips for Reinforcement Learning Player
+Long-term training of the Reinforcement learning agent, with initial and majority exploration, results in significantly improved performance due to experience accumulation.
 
