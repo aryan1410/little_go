@@ -1,6 +1,6 @@
 # Little-Go AI Agents
 
-This project implements intelligent agents to play a simplified version of the Go board game — "Little-Go" — on a 5x5 board. Designed as part of an AI coursework project, it explores and integrates several core AI techniques including minimax with alpha-beta pruning, greedy heuristics, and Q-learning.
+This project implements intelligent agents to play a simplified version of the Go board game — "Little-Go" — on a 5x5 board. Designed as an AI project, it explores and integrates several core AI techniques including minimax with alpha-beta pruning, greedy heuristics, and Q-learning.
 
 ## 🧠 Project Overview
 
