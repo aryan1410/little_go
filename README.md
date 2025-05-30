@@ -1,6 +1,6 @@
 # Little-Go AI Agents
 
-This project implements intelligent agents to play a simplified version of the Go board game — "Little-Go" — on a 5x5 board. Designed as an AI project, it explores and integrates several core AI techniques including minimax with alpha-beta pruning, greedy heuristics, and Q-learning.
+This project implements intelligent agents to play a simplified version of the Go board game — "Little-Go" — on a 5x5 board. Designed as an AI project, it explores and integrates several core AI techniques including minimax with alpha-beta pruning, greedy heuristics, and reinforcement learning.
 
 ## 🧠 Project Overview
 
@@ -22,7 +22,7 @@ In this project, agents compete in the game of Little-Go using various AI strate
 * `greedy_player.py`: Selects the move that captures the most opponent stones immediately
 * `aggressive_player.py`: Looks ahead two moves to maximize total captures
 * `alpha_beta_player.py`: Minimax search with alpha-beta pruning (depth=2)
-* `q_learner.py`: Reinforcement learning agent with Q-table updates and epsilon-greedy policy
+* `r_learner.py`: Reinforcement learning agent with Q-table updates and epsilon-greedy policy
 * `minimax.py`: Custom agent using weighted evaluation metrics and enhanced minimax with pruning
 
 ## 📁 File Structure
@@ -31,7 +31,7 @@ In this project, agents compete in the game of Little-Go using various AI strate
 * `read.py` / `write.py`: I/O utilities for agent interaction
 * `train.sh`, `train_white.sh`, `train_black.sh`: Scripts to train agents via self-play or evaluation
 * `play.sh`: Script for agent-vs-agent testing
-* `epsilon.txt`: Stores Q-learner’s exploration rate
+* `epsilon.txt`: Stores R-learner’s exploration rate
 * `q_table_black.json` / `q_table_white.json`: Persistent Q-value storage (generated during training)
 
 ## 🚀 How to Run
